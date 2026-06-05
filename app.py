@@ -13,7 +13,7 @@ COINGECKO_API = (
 
 
 @app.get("/api/bitcoin")
-def bitcoin_data():
+def bitcoin_data(): 
     try:
         response = requests.get(
             COINGECKO_API,
